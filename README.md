@@ -17,5 +17,5 @@ Each `grooves_manual` file needs to contain the following columns:
 5. `manual_code`: Code identifying who completed the manual identification 
 6. `manual_rep`: Repetition number within each individual's set of identifications.  
     - e.g. Kiegan did 3 repetitions on Hamby Set 44, so there are reps 1, 2, and 3.
-7. `grooves_manual`: this is the vector obtained WITHOUT THE PLOT! For each scan, this should simply be a vector of 2 values (left and right manually identified groove).  
+7. `grooves_manual`: this is set of groove identifications obtained WITHOUT THE PLOT! For each scan, this should simply be a vector of 2 values (left and right manually identified groove).  
 
