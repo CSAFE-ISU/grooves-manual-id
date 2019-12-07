@@ -3,7 +3,7 @@ Storage and procedure for manual groove identifications on land engraved area (L
 
 The file `manual_key.csv` contains a key for each manual groove identifier's "code" and their full name, in case anyone in the future needs to decipher the initials. For example, `manual_code = "kr"` and `manual_name = "Kiegan Rice"`. This will make the data a little more clean and consistent. If your name/code are not already present, please add them to the file prior to uploading any manual groove data.  
 
-There should be one single file for each bullet "study". Each file should be named `grooves_manual_studyname.rda` for clarity. For example, for Hamby Set 44, the file containing manual identifications is `grooves_manual_hamby44.rda`. Additional repetitions of manual identifications for a study already contained in the repository should be added to the existing `.rda` file, with the appropriate `manual_code` and `manual_rep` designations. 
+There should be one single file for each bullet "study". Each file should be named `grooves_manual_studyname.csv` for clarity. For example, for Hamby Set 44, the file containing manual identifications is `grooves_manual_hamby44.csv`. Additional repetitions of manual identifications for a study already contained in the repository should be added to the existing `.csv` file, with the appropriate `manual_code` and `manual_rep` designations. 
 
 Each `grooves_manual` file needs to contain the following columns: 
 
@@ -19,7 +19,8 @@ Each `grooves_manual` file needs to contain the following columns:
     - e.g., "kr", "cr", "hh", "yg"
 6. `manual_rep`: Repetition number within each individual's set of identifications.  
     - e.g. "kr" did 3 repetitions on Hamby Set 44, so there are reps 1, 2, and 3.
-7. `grooves_manual`: this is set of groove identifications obtained WITHOUT THE PLOT! For each scan, this should simply be a vector of 2 values (left and right manually identified groove).  
+7. `groove_left_manual`: this is the manually identified groove on the left side of the crosscut (LEA). This should be a single number. 
+8. `groove_right_manual`: this is the manually identified groove on the right side of the crosscut (LEA). This should be a single number. 
 
 
-Please see `grooves_manual_hamby44.rda` for an example of what the data should look like, and match your format to that! 
+Please see `grooves_manual_hamby44.csv` for an example of what the data should look like, and match your format to that! 
