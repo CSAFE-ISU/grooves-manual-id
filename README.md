@@ -11,8 +11,8 @@ Each `grooves_manual` file needs to contain the following columns:
     - e.g. `hamby44` for Hamby Set 44.
 2. `source`: path to the relevant x3p file on Sunny and/or Raven.  
     - e.g. `/media/Sunny/CSAFE/Phoenix Set//Unknown 1-Y/L1.x3p`
-3. `scan_id`: a unique identifier for each scan. This will be `barrel-bullet-land`, typically. 
-    - e.g. `Barrel 1-Bullet 1-Land 1`, `Unknowns-Bullet 'K'-Land 1`
+3. `scan_id`: a unique identifier for each scan. This will be `study-barrel-bullet-land`, typically. 
+    - e.g. `Hamby44-Barrel 1-Bullet 1-Land 1`, `Houston-Unknowns-Bullet 'K'-Land 1`
     - Note: for the Variability study, these need to include operator, machine, and round
 4. `crosscut`: Numeric value of the crosscut used for manual groove ID. This should result from `x3p_crosscut_optimize`. 
 5. `manual_code`: Code identifying who completed the manual identification  
